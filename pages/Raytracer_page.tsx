@@ -46,7 +46,7 @@ const Home: NextPage = () => {
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
             className = "mt-6"
-            src="/raytracer_finalrender.png"
+            src="/Portfolio_Site/raytracer_finalrender.png"
             alt="final render of raytracer"
             width={700}
             height={700}

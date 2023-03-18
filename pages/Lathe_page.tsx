@@ -144,7 +144,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={4}>
             <Image
-                  src="/Portfolio_Site/Lathe_arduino.png"
+                  src="/Portfolio_Site/lathe_arduino.png"
                   alt="arduino"
                   width={500}
                   height={500}
