@@ -1,7 +1,7 @@
 import { Card, Col, Text, Row, Button, Link } from "@nextui-org/react";
 
 export const FTC = () => (
-  <a href="/FTC_page">
+  <a href="/Portfolio_Site/FTC_page">
   <Card variant="shadow" isHoverable isPressable>
     <Card.Image
       css={{

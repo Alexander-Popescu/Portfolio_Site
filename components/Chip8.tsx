@@ -1,7 +1,7 @@
 import { Card, Col, Text, Row, Button, Link } from "@nextui-org/react";
 
 export const Chip8 = () => (
-  <a href="/Chip8_page">
+  <a href="/Portfolio_Site/Chip8_page">
   <Card variant="shadow" isHoverable isPressable>
     <Card.Image
       src = "chip8_thumbnail.png"

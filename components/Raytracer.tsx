@@ -1,7 +1,7 @@
 import { Card, Col, Text, Row, Button, Link } from "@nextui-org/react";
 
 export const Raytracer = () => (
-  <a href="/Raytracer_page">
+  <a href="/Portfolio_Site/Raytracer_page">
   <Card variant="shadow" isHoverable isPressable>
     <Card.Image
       src = "raytracer_finalrender.png"

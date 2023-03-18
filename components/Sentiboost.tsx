@@ -1,7 +1,7 @@
 import { Card, Col, Text, Row, Button, Link } from "@nextui-org/react";
 
 export const Sentiboost = () => (
-  <a href="/Sentiboost_page">
+  <a href="/Portfolio_Site/Sentiboost_page">
   <Card variant="shadow" isHoverable isPressable>
     <Card.Image
       src = "sentiboost_filled.png"
