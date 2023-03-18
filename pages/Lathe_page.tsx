@@ -43,7 +43,7 @@ const Home: NextPage = () => {
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
             className = "mt-6"
-            src="/lathe_handle.gif"
+            src="/Portfolio_Site/lathe_handle.gif"
             alt="lathe in action"
             width={500}
             height={500}
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
             className = "mt-6"
-            src="/lathe_mainbody.png"
+            src="/Portfolio_Site/lathe_mainbody.png"
             alt="Main body of lathe"
             width={700}
             height={700}
@@ -70,7 +70,7 @@ const Home: NextPage = () => {
         <Grid.Container gap={2} justify="center">
             <Grid justify="center" xs={12} sm={6}>
             <Image
-                  src="/lathe_tailstock.png"
+                  src="/Portfolio_Site/lathe_tailstock.png"
                   alt="Lathe headstock"
                   width={700}
                   height={700}
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={6}>
             <Image
-                  src="/lathe_headstock.png"
+                  src="/Portfolio_Site/lathe_headstock.png"
                   alt="lathe tailstock"
                   width={700}
                   height={700}
@@ -91,7 +91,7 @@ const Home: NextPage = () => {
         <Grid.Container gap={2} justify="center">
             <Grid justify="center" xs={12} sm={6}>
             <Image
-                  src="/lathe_ballscrew.png"
+                  src="/Portfolio_Site/lathe_ballscrew.png"
                   alt="ball screw along body"
                   width={700}
                   height={700}
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={6}>
             <Image
-                  src="/lathe_zstepper.png"
+                  src="/Portfolio_Site/lathe_zstepper.png"
                   alt="z-axis stepper motors"
                   width={700}
                   height={700}
@@ -112,7 +112,7 @@ const Home: NextPage = () => {
         <Grid.Container gap={1} justify="center">
             <Grid justify="center" xs={12} sm={5}>
             <Image
-                  src="/lathe_QCTP.png"
+                  src="/Portfolio_Site/lathe_QCTP.png"
                   alt="Quick change toolpost"
                   width={500}
                   height={500}
@@ -120,7 +120,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={5}>
             <Image
-                  src="/lathe_xstepper.png"
+                  src="/Portfolio_Site/lathe_xstepper.png"
                   alt="x-axis stepper motor"
                   width={500}
                   height={500}
@@ -136,7 +136,7 @@ const Home: NextPage = () => {
         <Grid.Container gap={1} justify="center">
             <Grid justify="center" xs={12} sm={4}>
             <Image
-                  src="/lathe_board.png"
+                  src="/Portfolio_Site/lathe_board.png"
                   alt="Electronics Board"
                   width={500}
                   height={500}
@@ -144,7 +144,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={4}>
             <Image
-                  src="/Lathe_arduino.png"
+                  src="/Portfolio_Site/Lathe_arduino.png"
                   alt="arduino"
                   width={500}
                   height={500}
@@ -152,7 +152,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={4}>
             <Image
-                  src="/lathe_driver.png"
+                  src="/Portfolio_Site/lathe_driver.png"
                   alt="stepper driver"
                   width={500}
                   height={500}
@@ -177,7 +177,7 @@ const Home: NextPage = () => {
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
             className = "mt-6"
-            src="/lathe_fusion.png"
+            src="/Portfolio_Site/lathe_fusion.png"
             alt="Fusion360 screenshot"
             width={700}
             height={700}
@@ -192,7 +192,7 @@ const Home: NextPage = () => {
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
             className = "mt-6"
-            src="/lathe_cuttingtool.png"
+            src="/Portfolio_Site/lathe_cuttingtool.png"
             alt="cutting tool"
             width={700}
             height={700}

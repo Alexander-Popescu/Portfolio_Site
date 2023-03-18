@@ -48,8 +48,8 @@ const Home: NextPage = () => {
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
             className = "mt-6"
-            src="/ftc_robot.png"
-            alt="diffuse sphere (matte)"
+            src="/Portfolio_Site/ftc_robot.png"
+            alt="picture of FTC robot"
             width={700}
             height={700}
           />
@@ -63,8 +63,8 @@ const Home: NextPage = () => {
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
             className = "mt-6"
-            src="/ftc_webcam.png"
-            alt="diffuse sphere (matte)"
+            src="/Portfolio_Site/ftc_webcam.png"
+            alt="webcam"
             width={500}
             height={500}
           />
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
         <Grid.Container gap={1} justify="center">
             <Grid justify="center" xs={12} sm={3}>
             <Image
-                  src="/ftc_greendetect.png"
+                  src="/Portfolio_Site/ftc_greendetect.png"
                   alt="Green orientation detection"
                   width={300}
                   height={300}
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={3}>
             <Image
-                  src="/ftc_reddetect.png"
+                  src="/Portfolio_Site/ftc_reddetect.png"
                   alt="red orientation detection"
                   width={300}
                   height={300}
@@ -94,7 +94,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={3}>
             <Image
-                  src="/ftc_yellowdetect.png"
+                  src="/Portfolio_Site/ftc_yellowdetect.png"
                   alt="yellow orientation detection"
                   width={300}
                   height={300}

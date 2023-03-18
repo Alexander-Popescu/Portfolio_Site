@@ -54,8 +54,8 @@ const Home: NextPage = () => {
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
             className = "mt-6"
-            src="/chip8_tetris_1.gif"
-            alt="diffuse sphere (matte)"
+            src="/Portfolio_Site/chip8_tetris_1.gif"
+            alt="running example"
             width={700}
             height={700}
           />
@@ -69,8 +69,8 @@ const Home: NextPage = () => {
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
             className = "mt-6"
-            src="/chip8_kalaid.gif"
-            alt="diffuse sphere (matte)"
+            src="/Portfolio_Site/chip8_kalaid.gif"
+            alt="another example of program functioning"
             width={700}
             height={700}
           />

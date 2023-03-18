@@ -46,7 +46,7 @@ const Home: NextPage = () => {
         </h2>
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
-            src="/sentiboost_input.png"
+            src="/Portfolio_Site/sentiboost_input.png"
             alt="sentiboost text input screen"
             width={700}
             height={700}
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
           <Grid.Container gap={2} justify="center">
             <Grid justify="center" xs={12} sm={100}>
             <Image
-              src="/sentiboost_green.png"
+              src="/Portfolio_Site/sentiboost_green.png"
               alt="sentiboost success page"
               width={1000}
               height={1000}
@@ -69,7 +69,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={100}>
             <Image
-              src="/sentiboost_red.png"
+              src="/Portfolio_Site/sentiboost_red.png"
               alt="sentiboost failure page"
               width={1000}
               height={1000}
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
           <Grid.Container gap={2} justify="center">
             <Grid justify="center" xs={12} sm={100}>
             <Image
-                  src="/sentiboost_statistics_one.png"
+                  src="/Portfolio_Site/sentiboost_statistics_one.png"
                   alt="sentiboost success page"
                   width={1000}
                   height={1000}
@@ -90,7 +90,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={100}>
             <Image
-                  src="/sentiboost_statistics_two.png"
+                  src="/Portfolio_Site/sentiboost_statistics_two.png"
                   alt="sentiboost success page"
                   width={1000}
                   height={1000}
