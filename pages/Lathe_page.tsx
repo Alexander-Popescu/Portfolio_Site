@@ -14,7 +14,6 @@ const Home: NextPage = () => {
       </Head>
 
       <header className="flex flex-col xs:flex-row justify-between items-center w-full mt-3 border-b pb-7 sm:px-4 px-2 border-gray-500 gap-2">
-        <Link href="https://alexander-popescu.github.io/Portfolio_Site" className="flex space-x-2">
           <Text
           h1
           size={25}
@@ -25,7 +24,6 @@ const Home: NextPage = () => {
           >
             Alexander Popescu
           </Text>
-        </Link>
       </header>
       <main className="flex flex-1 w-full flex-col items-top justify-top text-center px-4 sm:mt-20 mt-20">
       <Text className="text-lg" h1 size={50} weight="bold">
@@ -53,7 +51,7 @@ const Home: NextPage = () => {
             Construction
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          The main body of the lathe was taken from a normal lathe called the JET 1220. The bed extension was also attached to lengthenthe bed. Attached to each side are linear rails for the carriage to move along. These linear rails are attached to aluminum extrusions which are mounted to the bed with metal angle brackets. To make sure the two rails were perfectly parallel, the angle brackets were tightened slightly and then the rails were lightly tapped until they were perfectly level and parallel.
+          The main body of the lathe was taken from a wood turning lathe called the JET 1220. The bed extension was also attached to lengthen the bed. Attached to each side are linear rails for the carriage to move along. These linear rails are attached to aluminum extrusions which are mounted to the bed with metal angle brackets. To make sure the two rails were perfectly parallel, the angle brackets were tightened slightly and then the rails were lightly tapped until they were perfectly level and parallel.
         </h2>
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
@@ -65,7 +63,7 @@ const Home: NextPage = () => {
           />
         </div>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          The head and tailstocks of this machine were also taken from the JET 1220. The drive and live centers both have extensions mounted to them to allow the carriage to cut the entire length of the wood. The stocks are mounted on the bed of the lathe.
+          The head and tailstocks of this machine were also taken from the JET 1220. The drive and live centers both have extensions mounted to them to allow the carriage to cut the entire length of the wood. Without these spacers the carriage would collide with the head or tailstock when trying to cut the edges of the wood. The stocks are mounted on the bed of the lathe.
         </h2>
         <Grid.Container gap={2} justify="center">
             <Grid justify="center" xs={12} sm={6}>
@@ -163,7 +161,7 @@ const Home: NextPage = () => {
             Translating from G-code to stepper movement
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          The issue with controlling the stepper motors directly from a typical computer is that since the computer is running many different programs, the flow of instructions to the stepper motors can get interupted which is bad for the finish on the wood. This is why this project uses an ardiono to control the steppers, as the arduino only runs a single program there is nothing that can interupt the flow of instructions. So the computer that has the G-code is running a program called UGS (Universal G-code Sender) to maintain roughly a 20 instruction large buffer for the arduino.
+          The issue with controlling the stepper motors directly from a typical computer is that since the computer is running many different programs, the flow of instructions to the stepper motors can get interupted which is bad for the finish on the wood. This is why this project uses an arduino to control the steppers, as the arduino only runs a single program there is nothing that can interupt the flow of instructions. So the computer that has the G-code is running a program called UGS (Universal G-code Sender) to maintain roughly a 20 instruction large buffer for the arduino.
         </h2>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
           To actually interpret the G-code sent by UGS, the arduino UNO is running a program called GRBL. GRBL takes the G-code file and translates the G-code into instructions that the stepper motors can understand. It also takes many important factors into account such as the pitch of the ball screw, the microsteps of the stepper motors, etc to make sure that the G-code is run properly on this machine. GRBL is a very optimized program so that it is able to run on the arduino's relatively weak processor.
