@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <header className="flex flex-col xs:flex-row justify-between items-center w-full mt-3 border-b pb-7 sm:px-4 px-2 border-gray-500 gap-2">
-        <Link href="/" className="flex space-x-2">
+        <Link href="https://alexander-popescu.github.io/Portfolio_Site" className="flex space-x-2">
           <Text
           h1
           size={25}
@@ -35,10 +35,10 @@ const Home: NextPage = () => {
             Purpose and Overview
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          This project was made to help create wooden rolling pins with a high degree of accuracy. Adding computer control functionality to a wood turning lathe allows much longer rolling pins to remain almost perfectly flat for the entire length.
+          This project was made to help create wooden rolling pins with a high degree of accuracy. Adding computer control functionality to a wood turning lathe allows much longer rolling pins to remain perfectly straight for the entire length, within reasonable machining tolerances.
         </h2>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          To produce a part on this lathe, you first generate a G-code file and send it to the arduino mounted nearby, mount a stock of wood between the head and tailstock, and begin to spin the lathe. After pressing start to send the G-code the machine will begin to cut the stock of wood to the shape specified in the G-code file. More details about this process are documented below.
+          To produce a part on this lathe, you first generate a G-code file and send it to an arduino, mount a blank of wood between the drive and live centers, and begin to spin the lathe. After pressing start to send the G-code the machine will begin to cut the blank of wood to the shape specified in the G-code file. More details about this process are documented below.
         </h2>
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
@@ -53,7 +53,7 @@ const Home: NextPage = () => {
             Construction
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          The main body of the lathe has a cast iron core to which everything is mounted. attached to each side are linear rails for the carriage to move along. These linear rails are attached to aluminum extrusions which are mounted to the cast iron with metal angle brackets. To make sure the two rails were perfectly parallel, the angle brackets were tightened slightly and then the rails were lightly tapped until they were perfectly level and parallel.
+          The main body of the lathe was taken from a normal lathe called the JET 1220. The bed extension was also attached to lengthenthe bed. Attached to each side are linear rails for the carriage to move along. These linear rails are attached to aluminum extrusions which are mounted to the bed with metal angle brackets. To make sure the two rails were perfectly parallel, the angle brackets were tightened slightly and then the rails were lightly tapped until they were perfectly level and parallel.
         </h2>
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
@@ -65,7 +65,7 @@ const Home: NextPage = () => {
           />
         </div>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          The head and tailstocks of this machine were taken off of a JET JML-1014, with the spindles replaced with spindles that better grip the wood used on this project. The stocks are mounted on the cast iron center of the lathe.
+          The head and tailstocks of this machine were also taken from the JET 1220. The drive and live centers both have extensions mounted to them to allow the carriage to cut the entire length of the wood. The stocks are mounted on the bed of the lathe.
         </h2>
         <Grid.Container gap={2} justify="center">
             <Grid justify="center" xs={12} sm={6}>
@@ -86,7 +86,7 @@ const Home: NextPage = () => {
             </Grid>
           </Grid.Container>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          The carriage of the lathe is mounted to the linear rails on the body of the lathe. Due to the precision required, it is very important to reduce backlash as much as possible so that the z-axis position readings are accurate. To solve this the carriage is attached to two ball screws on either side of the lathe, both of which are driven by an independant z-axis stepper motor.
+          The carriage of the lathe is mounted to the linear rails. Due to the precision required, it is very important to reduce backlash as much as possible so that the z-axis position readings are accurate. To solve this the carriage is attached to two ball screws on either side of the lathe, both of which are driven by an independant z-axis stepper motor.
         </h2>
         <Grid.Container gap={2} justify="center">
             <Grid justify="center" xs={12} sm={6}>
@@ -131,7 +131,7 @@ const Home: NextPage = () => {
             Computer Control
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          To control all the stepper motors, some electronic hardware is required. This project uses an arduino UNO to control the stepper motors. Also attached close to the arduino are 3 stepper motor drivers to provide the nessecary power to the moters. To power everything, a 24 Volt power supply is also mounted nearby.
+          To control all the stepper motors, some electronic hardware is required. This project uses an arduino UNO to control the stepper motors. Also attached close to the arduino are 3 stepper motor drivers to provide the nessecary power to the motors. To power everything, a 24 Volt power supply is also mounted nearby.
         </h2>
         <Grid.Container gap={1} justify="center">
             <Grid justify="center" xs={12} sm={4}>
@@ -163,10 +163,10 @@ const Home: NextPage = () => {
             Translating from G-code to stepper movement
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          To make sure that the G-code file will work accurately on this specific machine, a program called Universal G-code Sender (UGS) is used to send the G-code created by the cad software to the arduino. UGS takes lots of important factors into account, such as the pitch of the ball screw, the microsteps for the stepper motors, etc, to make sure that the G-code will translate properly on the lathe.
+          The issue with controlling the stepper motors directly from a typical computer is that since the computer is running many different programs, the flow of instructions to the stepper motors can get interupted which is bad for the finish on the wood. This is why this project uses an ardiono to control the steppers, as the arduino only runs a single program there is nothing that can interupt the flow of instructions. So the computer that has the G-code is running a program called UGS (Universal G-code Sender) to maintain roughly a 20 instruction large buffer for the arduino.
         </h2>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          To actually interpret the G-code sent by UGS, the arduino UNO is running a program called GRBL. GRBL takes the G-code file and translates the G-code into instructions that the stepper motors can understand. GRBL is a very optimized program so that it is able to run on the arduino's relatively weak processor.
+          To actually interpret the G-code sent by UGS, the arduino UNO is running a program called GRBL. GRBL takes the G-code file and translates the G-code into instructions that the stepper motors can understand. It also takes many important factors into account such as the pitch of the ball screw, the microsteps of the stepper motors, etc to make sure that the G-code is run properly on this machine. GRBL is a very optimized program so that it is able to run on the arduino's relatively weak processor.
         </h2>
         <Text className="mx-auto mt-12 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7" h1 size={30}  weight="bold">
             CAD
