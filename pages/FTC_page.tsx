@@ -103,7 +103,7 @@ const Home: NextPage = () => {
             Awards and Achievements
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          At the state-level FTC championship our team qualified as the number 1 team and got second overall in the entire state. We also recieved the Control Award sponsored by Arm, Inc. for our innovative drive system and computer vision system. WE also recieved 2nd place for the Innovate award and 3rd place for the Motivate award.
+          At the state-level FTC championship our team qualified as the number 1 team and got second overall in the entire state. We also recieved the Control Award sponsored by Arm, Inc. for our innovative drive system and computer vision system. We also recieved 2nd place for the Innovate award and 3rd place for the Motivate award.
         </h2>
       </main>
       <Footer />
