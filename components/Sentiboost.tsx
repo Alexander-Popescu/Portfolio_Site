@@ -4,7 +4,7 @@ export const Sentiboost = () => (
   <a href="/Portfolio_Site/Sentiboost_page">
   <Card variant="shadow" isHoverable isPressable>
     <Card.Image
-      src = "sentiboost_filled.png"
+      src = "sentiboost_filled.jpg"
       objectFit="cover"
       width="100%"
       height={340}

@@ -4,7 +4,7 @@ export const Chip8 = () => (
   <a href="/Portfolio_Site/Chip8_page">
   <Card variant="shadow" isHoverable isPressable>
     <Card.Image
-      src = "chip8_thumbnail.png"
+      src = "chip8_thumbnail.jpg"
       objectFit="cover"
       width="100%"
       height={340}

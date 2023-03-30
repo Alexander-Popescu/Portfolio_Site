@@ -7,7 +7,7 @@ export const FTC = () => (
       css={{
         class: "card-static"
       }}
-      src = "ftc_robottwo.png"
+      src = "ftc_thumbnail.jpg"
       objectFit="cover"
       width="100%"
       height={340}

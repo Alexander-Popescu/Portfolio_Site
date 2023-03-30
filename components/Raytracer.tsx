@@ -4,7 +4,7 @@ export const Raytracer = () => (
   <a href="/Portfolio_Site/Raytracer_page">
   <Card variant="shadow" isHoverable isPressable>
     <Card.Image
-      src = "raytracer_finalrender.png"
+      src = "raytracer_thumbnail.jpg"
       objectFit="cover"
       width="100%"
       height={340}

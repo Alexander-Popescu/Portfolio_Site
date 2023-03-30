@@ -4,7 +4,7 @@ export const Lathe = () => (
   <a href="/Portfolio_Site/Lathe_page">
   <Card variant="shadow" isHoverable isPressable>
     <Card.Image
-      src = "lathe_thumbnail.png"
+      src = "lathe_thumbnail.jpg"
       objectFit="cover"
       width="100%"
       height={340}
