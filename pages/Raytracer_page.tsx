@@ -44,7 +44,7 @@ const Home: NextPage = () => {
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
             className = "mt-6"
-            src="/Portfolio_Site/raytracer_finalrender.png"
+            src="/Portfolio_Site/raytracer_finalrender.jpg"
             alt="final render of raytracer"
             width={700}
             height={700}
@@ -65,7 +65,7 @@ const Home: NextPage = () => {
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
             className = "mt-6"
-            src="/Portfolio_Site/raytracer_diffuse.png"
+            src="/Portfolio_Site/raytracer_diffuse.jpg"
             alt="diffuse sphere (matte)"
             width={700}
             height={700}
@@ -80,7 +80,7 @@ const Home: NextPage = () => {
         <Grid.Container gap={2} justify="center">
             <Grid justify="center" xs={12} sm={6}>
             <Image
-                  src="/Portfolio_Site/raytracer_metal.png"
+                  src="/Portfolio_Site/raytracer_metal.jpg"
                   alt="reflective metal sphere"
                   width={700}
                   height={700}
@@ -88,7 +88,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={6}>
             <Image
-                  src="/Portfolio_Site/raytracer_metal_fuzz.png"
+                  src="/Portfolio_Site/raytracer_metal_fuzz.jpg"
                   alt="matte-like gold metal sphere"
                   width={700}
                   height={700}
@@ -104,7 +104,7 @@ const Home: NextPage = () => {
           <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
             className = "mt-6"
-            src="/Portfolio_Site/raytracer_dielectric.png"
+            src="/Portfolio_Site/raytracer_dielectric.jpg"
             alt="glass sphere"
             width={700}
             height={700}
@@ -119,7 +119,7 @@ const Home: NextPage = () => {
         <Grid.Container gap={2} justify="center">
             <Grid justify="center" xs={12} sm={6}>
             <Image
-                  src="/Portfolio_Site/raytracer_evenlyspaced.png"
+                  src="/Portfolio_Site/raytracer_evenlyspaced.jpg"
                   alt="evenly spaced spheres from a high angle"
                   width={700}
                   height={700}
@@ -127,7 +127,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={6}>
             <Image
-                  src="/Portfolio_Site/raytracer_evenlyspaced_lower.png"
+                  src="/Portfolio_Site/raytracer_evenlyspaced_lower.jpg"
                   alt="evenly spaced spheres with a closer camera"
                   width={700}
                   height={700}
@@ -143,7 +143,7 @@ const Home: NextPage = () => {
         <Grid.Container gap={2} justify="center">
             <Grid justify="center" xs={12} sm={4}>
             <Image
-                  src="/Portfolio_Site/raytracer_noDOF.png"
+                  src="/Portfolio_Site/raytracer_noDOF.jpg"
                   alt="reflective metal sphere"
                   width={700}
                   height={700}
@@ -151,7 +151,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={4}>
             <Image
-                  src="/Portfolio_Site/raytracer_2DOF.png"
+                  src="/Portfolio_Site/raytracer_2DOF.jpg"
                   alt="matte-like gold metal sphere"
                   width={700}
                   height={700}
@@ -159,7 +159,7 @@ const Home: NextPage = () => {
             </Grid>
             <Grid justify="center" xs={12} sm={4}>
             <Image
-                  src="/Portfolio_Site/raytracer_5DOF.png"
+                  src="/Portfolio_Site/raytracer_5DOF.jpg"
                   alt="matte-like gold metal sphere"
                   width={700}
                   height={700}
