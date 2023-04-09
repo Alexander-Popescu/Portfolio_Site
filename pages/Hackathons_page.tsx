@@ -46,14 +46,22 @@ const Home: NextPage = () => {
     >
       <Table.Header>
         <Table.Column align="center" >HACKATHON NAME</Table.Column>
+        <Table.Column align="center">PARTICIPANT COUNT</Table.Column>
         <Table.Column align="center">AWARD WON</Table.Column>
         <Table.Column align="center">LINK TO PROJECT</Table.Column>
       </Table.Header>
       <Table.Body>
         <Table.Row key="1">
           <Table.Cell>2023 All-In Hackathon</Table.Cell>
+          <Table.Cell>155</Table.Cell>
           <Table.Cell>Most Creative Use of Twilio API</Table.Cell>
           <Table.Cell><a href="https://devpost.com/software/emercontact">Emercontact</a></Table.Cell>
+        </Table.Row>
+        <Table.Row key="1">
+          <Table.Cell>EducateHacks2023</Table.Cell>
+          <Table.Cell>678</Table.Cell>
+          <Table.Cell>Results Unconfirmed</Table.Cell>
+          <Table.Cell><a href="https://devpost.com/software/genielearn">GenieLearn</a></Table.Cell>
         </Table.Row>
       </Table.Body>
     </Table>
