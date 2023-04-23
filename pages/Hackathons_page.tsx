@@ -51,6 +51,24 @@ const Home: NextPage = () => {
         <Table.Column align="center">LINK TO PROJECT</Table.Column>
       </Table.Header>
       <Table.Body>
+      <Table.Row key="1">
+          <Table.Cell>MEGA Hackathon</Table.Cell>
+          <Table.Cell>423</Table.Cell>
+          <Table.Cell>First Place Overall, Robotics/Hardware Award</Table.Cell>
+          <Table.Cell><a href="https://devpost.com/software/geniesense">GenieSense</a></Table.Cell>
+        </Table.Row>
+        <Table.Row key="1">
+          <Table.Cell>FutureHacks Five</Table.Cell>
+          <Table.Cell>234</Table.Cell>
+          <Table.Cell>Grand Prize Winner (1st Place)</Table.Cell>
+          <Table.Cell><a href="https://devpost.com/software/geniesense">GenieSense</a></Table.Cell>
+        </Table.Row>
+        <Table.Row key="1">
+          <Table.Cell>LaunchHacks II</Table.Cell>
+          <Table.Cell>744</Table.Cell>
+          <Table.Cell>Second Place Overall</Table.Cell>
+          <Table.Cell><a href="https://devpost.com/software/genielearn">GenieLearn</a></Table.Cell>
+        </Table.Row>
         <Table.Row key="1">
           <Table.Cell>2023 All-In Hackathon</Table.Cell>
           <Table.Cell>155</Table.Cell>
@@ -60,8 +78,14 @@ const Home: NextPage = () => {
         <Table.Row key="1">
           <Table.Cell>EducateHacks2023</Table.Cell>
           <Table.Cell>678</Table.Cell>
-          <Table.Cell>Results Unconfirmed</Table.Cell>
+          <Table.Cell>Participant</Table.Cell>
           <Table.Cell><a href="https://devpost.com/software/genielearn">GenieLearn</a></Table.Cell>
+        </Table.Row>
+        <Table.Row key="1">
+          <Table.Cell>BeeLikeCoders2.0</Table.Cell>
+          <Table.Cell>118</Table.Cell>
+          <Table.Cell>Participant</Table.Cell>
+          <Table.Cell><a href="https://devpost.com/software/geniesense">GenieSense</a></Table.Cell>
         </Table.Row>
       </Table.Body>
     </Table>
