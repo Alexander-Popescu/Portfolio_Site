@@ -32,9 +32,6 @@ const Home: NextPage = () => {
         </h2>
         <Grid.Container gap={2} justify="center">
           <Grid xs={12} sm={4}>
-            <Sentiboost />
-          </Grid>
-          <Grid xs={12} sm={4}>
             <Raytracer />
           </Grid>
           <Grid xs={12} sm={4}>
@@ -51,6 +48,9 @@ const Home: NextPage = () => {
           </Grid>
           <Grid xs={12} sm={4}>
             <Hackathons />
+          </Grid>
+          <Grid xs={12} sm={4}>
+            <Sentiboost />
           </Grid>
         </Grid.Container>
           

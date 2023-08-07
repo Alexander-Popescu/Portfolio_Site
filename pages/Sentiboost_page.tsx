@@ -40,7 +40,7 @@ const Home: NextPage = () => {
             Sentiboost
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          This project was built with the goal of detecting fake news articles in mind. The project uses a BERT natural-language-processing model to detect similarities between the language used in pre-identified fake news articles and the user's input article
+          This project was built with the goal of detecting fake news articles in mind. The project uses a BERT natural-language-processing model to detect similarities between the language used in pre-identified fake news articles and the user's input article.
         </h2>
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
@@ -102,7 +102,7 @@ const Home: NextPage = () => {
             How can it be used?
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          This project was built as a flask web app and so it can be hosted locally or on the web. Once the flask server is running any user is able to take full advantage of the program through just a web browser, with all of the computations being handled by the back-end.
+          This project was built as a flask web app and so it can be hosted locally or on the web. Once the flask server is running, any user is able to take full advantage of the program through just a web browser, with all of the computations being handled by the back-end.
         </h2>
       </main>
       <Footer />

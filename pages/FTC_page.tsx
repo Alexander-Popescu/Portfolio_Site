@@ -41,7 +41,7 @@ const Home: NextPage = () => {
             FTC Robotics
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          I participated in the 2022-2023 FTC robotics season on team 14296. As our team robot evolved over the season, it became more and more important to adapt to the dynamic nature of the challenge. In this years challenge, one of the most beneficial tasks was to recognize the signal cone placed on the field during the match. The computer vision system that allowed our robot to detect this signal cone was my biggest contribution to the robot.
+          I participated in the 2022-2023 FTC robotics season on team 14296. As our team robot evolved over the season, it became more and more important to adapt to the dynamic nature of the challenge. In this year's challenge, one of the most beneficial tasks was to recognize the signal cone placed on the field during the match. The computer vision system that allowed our robot to detect this signal cone was my biggest contribution to the robot.
         </h2>
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
@@ -71,7 +71,7 @@ const Home: NextPage = () => {
             TFLITE Model
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          The processor mounted on the robot is not powerfull enough to perform inferences on a typical TFOD model and still perform normally with other tasks, so our solution was to use a TFLITE model which is designed to run on typically weaker hardware. The most important step of the process for creating a reliable image detection system is the training of the TFLITE model. In past iterations of this system, the detection was not reliable in different conditions due to a limited dataset. After creating a much improved dataset, the detection of the signal cone in different conditions was much more reliable. Our final dataset contained nearly 2000 images of the signal cone in different lighting conditions, orientations, angles to the webcam and other factors that led to a more varied dataset. After these improvements the system became very reliable.
+          The processor mounted on the robot is not powerfull enough to perform inferences on a typical TFOD model and still perform normally with other tasks, so our solution was to use a TFLITE model which is designed to run on typically weaker hardware. The most important step of the process for creating a reliable image detection system is the training of the TFLITE model. In past iterations of this system, the detection was not reliable in different conditions due to a limited dataset. After creating a much improved dataset, the detection of the signal cone in different conditions was much more reliable. Our final dataset contained nearly 2000 images of the signal cone in different lighting conditions, orientations, angles to the webcam and other factors that led to a more varied dataset. After these improvements, the system became very reliable.
         </h2>
         <Grid.Container gap={1} justify="center">
             <Grid justify="center" xs={12} sm={3}>
@@ -103,7 +103,7 @@ const Home: NextPage = () => {
             Awards and Achievements
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          At the state-level FTC championship our team qualified as the number 1 team and got second overall in the entire state. We also recieved the Control Award sponsored by Arm, Inc. for our innovative drive system and computer vision system. We also recieved 2nd place for the Innovate award and 3rd place for the Motivate award.
+          At the state-level FTC championship, our team qualified as the number 1 team and got second overall in the state. We also recieved the Control Award sponsored by Arm, Inc. for our innovative drive system and computer vision system. We also recieved 2nd place for the Innovate award and 3rd place for the Motivate award.
         </h2>
       </main>
       <Footer />

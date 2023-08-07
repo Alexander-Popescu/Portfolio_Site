@@ -32,7 +32,7 @@ const Home: NextPage = () => {
             Vibrotactile Gloves
         </Text>
         <h2 className="mx-auto mt-2 mb-8 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          This project was built for someone with Parkinsons disease. The idea stems from research conducted by Peter Tass at Stanford University who found that vibrotactile stimulation of 250hz in a specific pattern on a patient's fingers can decrease Parkinsons symptoms non-invasively. However, the glove used in the study is not yet available to the public and is also rumoured to cost thousands of dollars. This project attempts to replicate the glove used in the study. 
+          This project was built for someone with Parkinson's disease. The idea stems from research conducted by Peter Tass at Stanford University who found that vibrotactile stimulation of 250hz in a specific pattern on a patient's fingers can decrease Parkinson's symptoms non-invasively. However, the glove used in the study is not yet available to the public and is also rumoured to cost thousands of dollars. This project attempts to replicate the glove used in the study. 
         </h2>
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
             Components
         </Text>
         <h2 className="mx-auto mt-2 mb-8 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-            The only "necessary" components in this project are the 15000 rpm vibration motors, as those are what provide the vibrotactile stimulation, the rest of the components are there to run the motors in the pattern specified in the Stanford study.
+            The only "necessary" components in this project are the 15000 rpm vibration motors, as those are what provide the vibrotactile stimulation. The rest of the components are there to run the motors in the pattern specified in the Stanford study.
         </h2>
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
           />
         </div>
         <h2 className="mx-auto mt-6 mb-8 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          Each vibration motor is attached to a long power and ground wire and then shrink-wrapped into a small module as shown above. These modules can be secured to the fingers to provide the vibrotactile stimulation. All the fingers for the glove attach to the control box attached to the back of the glove and pictured below.
+          Each vibration motor is attached to a long power and ground wire and then shrink-wrapped into a small module, as shown above. These modules can be secured to the fingers to provide the vibrotactile stimulation. All the fingers for the glove attach to the control box attached to the back of the glove and pictured below.
         </h2>
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
           />
         </div>
         <h2 className="mx-auto mt-6 mb-8 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          The device itself is controlled with an arduino nano, which is loaded with the specific vibration pattern developed during the stanford study. The issue is all of the arduino output pins provide 5volts, and the vibration motors are only rated for 3.3volts, so a small voltage regulator is also placed in the box, soldered directly to the 5v pin on the arduino. The data pins that control which motor should be turned on are also soldered to transistors, allowing the arduino to control a 3.3volt current to the motors in the correct pattern. All the components are housed within a custom 3d printed box that is then strapped to the back of the glove.
+          The device itself is controlled with an arduino nano, which is loaded with the specific vibration pattern developed during the Stanford study. The issue is, all of the arduino output pins provide 5 volts, and the vibration motors are only rated for 3.3 volts, so a small voltage regulator is also placed in the box, soldered directly to the 5v pin on the arduino. The data pins that control which motor should be turned on are also soldered to transistors, allowing the arduino to control a 3.3 volt current to the motors in the correct pattern. All the components are housed within a custom 3d printed box that is then strapped to the back of the glove.
         </h2>
         <Text className="mx-auto mt-2 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7" h1 size={30}  weight="bold">
             The Glove
@@ -92,13 +92,13 @@ const Home: NextPage = () => {
             </Grid>
           </Grid.Container>
         <h2 className="mx-auto mt-6 mb-8 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          The glove itself is only there to hold the components to the user's hands, so this glove was tailored to the user. The glove was made by cutting apart a pair of gardening gloves and stitching velcro to the back. This allows the fingers of the glove, made of nylon webbing, to be adjusted if needed. At the end of the fingers there is a loop of nylon webbing with velcro that allows the user to securely attach the vibration motors to the tips of their fingers.
+          The glove itself is only there to hold the components to the user's hands, so this glove was tailored to the user. The glove was made by cutting apart a pair of gardening gloves and stitching velcro to the back. This allows the fingers of the glove, made of nylon webbing, to be adjusted if needed. At the end of the fingers, there is a loop of nylon webbing with velcro that allows the user to securely attach the vibration motors to the tips of their fingers.
         </h2>
         <Text className="mx-auto mt-2 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7" h1 size={30}  weight="bold">
             Power
         </Text>
         <h2 className="mx-auto mt-6 mb-8 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          The gloves are powerd by a 5v 2A power supply each, this is to make sure that the motors always have sufficient current and 5 volts is required for the arduino. Due to the weight of the batteries, it cannot be attached very easily to the glove itself, so the user can slip the battery between their palm and the glove to secure tha battery during use.
+          The gloves are powerd by a 5v 2A power supply each. This is to make sure that the motors always have sufficient current and 5 volts is required for the arduino. Due to the weight of the batteries, it cannot be attached very easily to the glove itself, so the user can slip the battery between their palm and the glove to secure the battery during use.
         </h2>
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image

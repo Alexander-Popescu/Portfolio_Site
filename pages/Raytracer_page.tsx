@@ -39,7 +39,7 @@ const Home: NextPage = () => {
             Rust Raytracer
         </Text>
         <h2 className="mx-auto mt-12 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          This project can generate realistic looking images completely from scratch using a raytracing algorithm. All of the images on this page were created using this project, and the entire project was written in the rust programming language.
+          This project can generate realistic looking images completely from scratch using a raytracing algorithm. All of the images on this page were created using this project, and the entire project was written in the Rust programming language.
         </h2>
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
             Lambertian Sphere
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          The lambertian material diffuses incoming light in all directions, this has the effect of producing a "matte" appearance on the surface of the sphere. This material also has a color property to affect the color of the reflected light.
+          The lambertian material diffuses incoming light in all directions. This has the effect of producing a "matte" appearance on the surface of the sphere. This material also has a color property to affect the color of the reflected light.
         </h2>
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
@@ -99,7 +99,7 @@ const Home: NextPage = () => {
             Glass Spheres
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          For the glass spheres, or dielectric spheres, the light rays are refracted rather than reflected, producing an inverted reflection when looking at the sphere. The sphere also has no shadow as light rays still reach the underside of the sphere. To produce a realistic result for these spheres, the algorithm implements Snell's law and a Schlick approximation to distort the light further at larger angles. 
+          For the glass spheres, or dielectric spheres, the light rays are refracted rather than reflected, producing an inverted reflection when looking at the sphere. The sphere also has no shadow, as light rays still reach the underside of the sphere. To produce a realistic result for these spheres, the algorithm implements Snell's law and a Schlick approximation to distort the light further at larger angles. 
         </h2>
           <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
@@ -138,7 +138,7 @@ const Home: NextPage = () => {
             Depth of Field
         </Text>
         <h2 className="mx-auto mt-6 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          Defocus blur, or the depth of field effect is an effect that occurs in real photographs, and so implementing it can add realism to the generated images. Below are examples of how depth of field effects the output image, from a factor of 0 to 5. Note that the colors of the spheres are randomized and that defocus blur only effects the blurring effect around the edges of the image.
+          Defocus blur, or the depth of field effect is an effect that occurs in real photographs, and so implementing it can add realism to the generated images. Below are examples of how depth of field effects the output image, from a factor of 0 to 5. Note that the colors of the spheres are randomized and that defocus blur only affects the blurring around the edges of the image.
         </h2>
         <Grid.Container gap={2} justify="center">
             <Grid justify="center" xs={12} sm={4}>

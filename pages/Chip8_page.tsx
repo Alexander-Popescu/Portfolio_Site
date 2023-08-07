@@ -47,7 +47,7 @@ const Home: NextPage = () => {
             Graphical Output
         </Text>
         <h2 className="mx-auto mt-12 max-w-l text-lg sm:text-gray-400  text-gray-500 leading-7">
-          To produce output from the interpreter this project uses the SDL library. The program itself maintains a 64x32 array of on/off pixels which is passed to SDL to render to the application window. This is useful because chip8 does not support color pixels so each pixel can be represented as on or off. The program also has a terminal output of each opcode that is run during the program for those who are curious or for troubleshooting purposes.
+          To produce output from the interpreter, this project uses the SDL library. The program itself maintains a 64x32 array of on/off pixels which is passed to SDL to render to the application window. This is useful because chip-8 does not support color pixels, so each pixel can be represented as on or off. The program also has a terminal output of each opcode that is run during the program for those who are curious or for troubleshooting purposes.
         </h2>
         <div style={{ display: "flex", justifyContent: "center", }}>
           <Image
