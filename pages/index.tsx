@@ -9,6 +9,7 @@ import { Chip8 } from "../components/Chip8";
 import { FTC } from "../components/FTC";
 import { Hackathons } from "../components/Hackathons";
 import { Vibrotactile } from "../components/Vibrotactile";
+import { OctoCMM } from "../components/OctoCMM";
 import { Text, Grid} from '@nextui-org/react';
 import React from "react";
 
@@ -45,6 +46,9 @@ const Home: NextPage = () => {
           </Grid>
           <Grid xs={12} sm={4}>
             <Vibrotactile />
+          </Grid>
+          <Grid xs={12} sm={4}>
+            <OctoCMM />
           </Grid>
           <Grid xs={12} sm={4}>
             <Hackathons />
