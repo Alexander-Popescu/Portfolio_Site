@@ -10,6 +10,7 @@ import { FTC } from "../components/FTC";
 import { Hackathons } from "../components/Hackathons";
 import { Vibrotactile } from "../components/Vibrotactile";
 import { OctoCMM } from "../components/OctoCMM";
+import { Shaders } from "../components/Shaders";
 import { Text, Grid} from '@nextui-org/react';
 import React from "react";
 
@@ -49,6 +50,9 @@ const Home: NextPage = () => {
           </Grid>
           <Grid xs={12} sm={4}>
             <OctoCMM />
+          </Grid>
+          <Grid xs={12} sm={4}>
+            <Shaders />
           </Grid>
           <Grid xs={12} sm={4}>
             <Hackathons />
