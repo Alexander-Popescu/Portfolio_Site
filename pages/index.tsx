@@ -19,6 +19,9 @@ const Home: NextPage = () => {
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
         <title>Alexander Popescu</title>
+        <meta name="description" content="A site for some stuff I did."></meta>
+        <meta property="og:title" content="My Website"></meta>
+        <meta property="og:description" content="A site for some stuff I did."></meta>
       </Head>
 
       <Header />
