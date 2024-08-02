@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+	<title>Alexander Popescu</title>
+	<meta name="description" content="My Website" />
+	<style>
+		body {
+			margin: 5% auto;
+			background: #f2f2f2;
+			color: #444444;
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+			font-size: 16px;
+			line-height: 1.8;
+			text-shadow: 0 1px 0 #ffffff;
+			max-width: 73%;
+		}
+
+		code {
+			background: white;
+		}
+
+		a {
+			border-bottom: 1px solid #444444;
+			color: #444444;
+			text-decoration: none;
+		}
+
+
+		a:hover {
+			border-bottom: 0;
+			background-color: #D9D9D9
+		}
+
+		img {
+			width: 60%;
+			height: auto;
+			max-width: 400px;
+			max-height: 400px;
+			border: 2px solid #ddd;
+			border-radius: 6px;
+			padding: 8px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Coordinate Measuring Machine</h1>
+		<hr>
+
+		<h2><a href="projects.html">Projects</a></h2>
+	</header>
+
+	<p>
+		CMMs, or coordinate measuring machines, are expensive. I had the idea to use the BLTouch proximity sensor on my
+		3d printer to probe objects on the print bed. Creating a cheap, although surely less accurate, CMM.
+	</p>
+
+	<img src="public/cmm_timelapse.gif" alt="CMM Probing operation">
+
+	<p>
+		This was done using a project called octoprint, which exposes an API to use different features of 3d printers.
+		OctoCMM is a plugin I wrote for octoprint which implements this project.
+	</p>
+
+	<img src="public/cmm_home.jpg" alt="Home Page for OctoCMM">
+	<img src="public/cmm_tab.jpg" alt="Plugin Page for OctoCMM">
+
+	<p>
+		The plugin details how to use the plugin to probe specific points on your model of choice and how to retreive
+		the data produced by the BLTouch sensor. The plugin also has customizable settings through the settings page.
+	</p>
+
+	<img src="public/cmm_settings.jpg" alt="OctoCMM plugins page">
+
+</body>
+
+</html>
