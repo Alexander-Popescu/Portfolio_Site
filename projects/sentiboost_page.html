@@ -49,33 +49,28 @@
 
 <body>
 	<header>
-		<h1>Coordinate Measuring Machine</h1>
+		<h1>Sentiboost</h1>
 		<hr>
 
 		<h2><a href="projects.html">Projects</a></h2>
 	</header>
 
 	<p>
-		CMMs, or coordinate measuring machines, are expensive. I had the idea to use the BLTouch proximity sensor on my
-		3d printer to probe objects on the print bed. Creating a cheap, although surely less accurate, CMM.
+		Sentiboost is an old text anaylzer that uses a pre-trained BERT deep learning model to classify text within the
+		browser.
 	</p>
 
-	<img src="public/cmm_timelapse.gif" alt="CMM Probing operation">
+	<img src="../public/sentiboost_input.png" alt="Sentiboost home page">
 
 	<p>
-		This was done using a project called octoprint, which exposes an API to use different features of 3d printers.
-		OctoCMM is a plugin I wrote for octoprint which implements this project.
+		The site will tell you if the model thinks your input text is closer to real or fake news articles, and will
+		display graphs indicating how similar it is to the dataset in various metrics. These metrics are shown along
+		with a logistic regression curve to help visualize any patterns.
 	</p>
 
-	<img src="public/cmm_home.jpg" alt="Home Page for OctoCMM">
-	<img src="public/cmm_tab.jpg" alt="Plugin Page for OctoCMM">
 
-	<p>
-		The plugin details how to use the plugin to probe specific points on your model of choice and how to retreive
-		the data produced by the BLTouch sensor. The plugin also has customizable settings through the settings page.
-	</p>
-
-	<img src="public/cmm_settings.jpg" alt="OctoCMM plugins page">
+	<img src="../public/sentiboost_statistics_one.png" alt="Sentiboost results 1">
+	<img src="../public/sentiboost_statistics_two.jpg" alt="Sentiboost results 2">
 
 </body>
 

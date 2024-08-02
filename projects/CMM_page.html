@@ -49,27 +49,33 @@
 
 <body>
 	<header>
-		<h1>Chip8 Interpreter</h1>
+		<h1>Coordinate Measuring Machine</h1>
 		<hr>
 
 		<h2><a href="projects.html">Projects</a></h2>
 	</header>
 
 	<p>
-		Chip8 is a programming language meant to be run with a chip8 interpreter, which would be implemented on each
-		desired machine. Similar to the Java Virtual Machine. It is often used to learn the basics of emulation, as it
-		is rather simple and a good foundation for future emulator development.
+		CMMs, or coordinate measuring machines, are expensive. I had the idea to use the BLTouch proximity sensor on my
+		3d printer to probe objects on the print bed. Creating a cheap, although surely less accurate, CMM.
 	</p>
 
-	<img src="public/chip8_kalaid.gif" alt="Chip8 kalaid demo">
+	<img src="../public/cmm_timelapse.gif" alt="CMM Probing operation">
 
 	<p>
-		The standard was created in the 70s, so programs are simple as well. My implementation is able to run any chip8
-		program, such as the kaleidoscope demo above or tetris. It also shows you each opcode that is executed on
-		the left side.
+		This was done using a project called octoprint, which exposes an API to use different features of 3d printers.
+		OctoCMM is a plugin I wrote for octoprint which implements this project.
 	</p>
 
-	<img src="public/chip8_tetris_1.gif" alt="Chip8 tetris demo">
+	<img src="../public/cmm_home.jpg" alt="Home Page for OctoCMM">
+	<img src="../public/cmm_tab.jpg" alt="Plugin Page for OctoCMM">
+
+	<p>
+		The plugin details how to use the plugin to probe specific points on your model of choice and how to retreive
+		the data produced by the BLTouch sensor. The plugin also has customizable settings through the settings page.
+	</p>
+
+	<img src="../public/cmm_settings.jpg" alt="OctoCMM plugins page">
 
 </body>
 

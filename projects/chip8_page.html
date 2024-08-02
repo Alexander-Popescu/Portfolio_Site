@@ -34,13 +34,7 @@
 			background-color: #D9D9D9
 		}
 
-		.img-large {
-			width: 100%;
-			height: auto;
-			max-width: 600px;
-		}
-
-		.img-small {
+		img {
 			width: 60%;
 			height: auto;
 			max-width: 400px;
@@ -55,36 +49,27 @@
 
 <body>
 	<header>
-		<h1>NES Emulator</h1>
+		<h1>Chip8 Interpreter</h1>
 		<hr>
 
 		<h2><a href="projects.html">Projects</a></h2>
 	</header>
 
 	<p>
-		A NES emulator allows you to play NES games on other hardware. For example, your computer. iNESsential is my
-		own implementation.
+		Chip8 is a programming language meant to be run with a chip8 interpreter, which would be implemented on each
+		desired machine. Similar to the Java Virtual Machine. It is often used to learn the basics of emulation, as it
+		is rather simple and a good foundation for future emulator development.
 	</p>
+
+	<img src="../public/chip8_kalaid.gif" alt="Chip8 kalaid demo">
 
 	<p>
-		The current version supports mapper 0 NES ROMs, including scrolling, a debug menu, and a fully tested CPU
+		The standard was created in the 70s, so programs are simple as well. My implementation is able to run any chip8
+		program, such as the kaleidoscope demo above or tetris. It also shows you each opcode that is executed on
+		the left side.
 	</p>
 
-	<img src="public/NES_Thumbnail.jpg" alt="Donkey Kong Emulation" class="img-small">
-
-
-
-	<img src="public/NES_ice.jpg" alt="Ice Climber Emulation" class="img-small">
-	<img src="public/NES_debug.jpg" alt="Debug Menu Showcase" class="img-small">
-	<img src="public/NES_CHRROM.jpg" alt="Debug Menu Showcase 2" class="img-small">
-
-	<p>
-		There were also some odd visual bugs during the development of the PPU. Mario and Ice Climbers respectively:
-	</p>
-
-
-	<img src="public/NES_marioBug.jpg" alt="Mario Bug Showcase" class="img-small">
-	<img src="public/NES_iceBug.jpg" alt="Ice Bug Showcase" class="img-small">
+	<img src="../public/chip8_tetris_1.gif" alt="Chip8 tetris demo">
 
 </body>
 

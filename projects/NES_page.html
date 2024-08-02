@@ -34,7 +34,13 @@
 			background-color: #D9D9D9
 		}
 
-		img {
+		.img-large {
+			width: 100%;
+			height: auto;
+			max-width: 600px;
+		}
+
+		.img-small {
 			width: 60%;
 			height: auto;
 			max-width: 400px;
@@ -49,21 +55,36 @@
 
 <body>
 	<header>
-		<h1>Vibrotactile Gloves</h1>
+		<h1>NES Emulator</h1>
 		<hr>
 
 		<h2><a href="projects.html">Projects</a></h2>
 	</header>
 
 	<p>
-		This is a pair of vibrotactile gloves made using an arduino nano, basic electronic components, and poor
-		soldering. The code emulates the stimulation pattern outlined in Peter Tass's <a
-			href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8055937/">paper</a>.
+		A NES emulator allows you to play NES games on other hardware. For example, your computer. iNESsential is my
+		own implementation.
 	</p>
 
-	<img src="public/vibro_thumbnail.jpg" alt="Full shot of gloves">
-	<img src="public/vibro_glove_front.jpg" alt="Full shot of fabric of glove only">
-	<img src="public/vibro_box.jpg" alt="Full shot of control box only">
+	<p>
+		The current version supports mapper 0 NES ROMs, including scrolling, a debug menu, and a fully tested CPU
+	</p>
+
+	<img src="../public/NES_Thumbnail.jpg" alt="Donkey Kong Emulation" class="img-small">
+
+
+
+	<img src="../public/NES_ice.jpg" alt="Ice Climber Emulation" class="img-small">
+	<img src="../public/NES_debug.jpg" alt="Debug Menu Showcase" class="img-small">
+	<img src="../public/NES_CHRROM.jpg" alt="Debug Menu Showcase 2" class="img-small">
+
+	<p>
+		There were also some odd visual bugs during the development of the PPU. Mario and Ice Climbers respectively:
+	</p>
+
+
+	<img src="../public/NES_marioBug.jpg" alt="Mario Bug Showcase" class="img-small">
+	<img src="../public/NES_iceBug.jpg" alt="Ice Bug Showcase" class="img-small">
 
 </body>
 
