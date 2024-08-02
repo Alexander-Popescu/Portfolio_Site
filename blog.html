@@ -28,12 +28,10 @@
 			text-decoration: none;
 		}
 
-
 		a:hover {
 			border-bottom: 0;
 			background-color: #D9D9D9
 		}
-
 
 		.blog-table {
 			width: 100%;
@@ -49,16 +47,30 @@
 		}
 
 		.blog-table tr {
-			border-bottom: 1px solid #dddddd;
-			border-top: 1px solid #dddddd;
+			border-bottom: 2px solid #dedede;
+			border-top: 2px solid #dedede;
 		}
 
-		img {
-			width: 200px;
-			height: auto;
-			max-height: 200px;
-			object-fit: cover;
-			border-radius: 10q;
+		@media screen and (max-width: 768px) {
+			body {
+				font-size: 14px;
+			}
+
+			.blog-table th,
+			.blog-table td {
+				padding: 8px;
+			}
+		}
+
+		@media screen and (max-width: 480px) {
+			body {
+				font-size: 12px;
+			}
+
+			.blog-table th,
+			.blog-table td {
+				padding: 6px;
+			}
 		}
 	</style>
 </head>
@@ -79,10 +91,10 @@
 	<table class="blog-table">
 
 		<tr>
-			<td><img src="public/favicon.ico" alt="template">
 			</td>
 			<td><a href="index.html"><strong>Template - </strong> There are no real posts yet, this is a placeholder</a>
 			</td>
+			<td>8/2/2024</td>
 		</tr>
 
 	</table>

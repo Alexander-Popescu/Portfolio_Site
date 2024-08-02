@@ -28,14 +28,13 @@
 			text-decoration: none;
 		}
 
-
 		a:hover {
 			border-bottom: 0;
 			background-color: #D9D9D9
 		}
 
 		.projects-table {
-			width: 100%;
+			width: 80%;
 			border-collapse: collapse;
 			margin: 20px 0;
 		}
@@ -48,16 +47,46 @@
 		}
 
 		.projects-table tr {
-			border-bottom: 1px solid #dddddd;
-			border-top: 1px solid #dddddd;
+			border-bottom: 2px solid #dedede;
+			border-top: 2px solid #dedede;
 		}
 
 		.project-image {
-			width: 200px;
+			width: 100%;
 			height: auto;
-			max-height: 200px;
-			object-fit: cover;
-			border-radius: 10q;
+			max-width: 300px;
+			max-height: 300px;
+			border: 2px solid #ddd;
+			border-radius: 1vw;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		}
+
+		@media screen and (max-width: 1024px) {
+			.projects-table {
+				width: 100%;
+			}
+		}
+
+		@media screen and (max-width: 768px) {
+			body {
+				font-size: 14px;
+			}
+
+			.projects-table th,
+			.projects-table td {
+				padding: 8px;
+			}
+		}
+
+		@media screen and (max-width: 480px) {
+			body {
+				font-size: 10px;
+			}
+
+			.projects-table th,
+			.projects-table td {
+				padding: 6px;
+			}
 		}
 	</style>
 </head>
@@ -66,68 +95,75 @@
 	<header>
 		<h1>Projects</h1>
 		<hr>
-
 		<h2><a href="index.html">Home</a></h2>
-		</p>
 	</header>
 
 	<table class="projects-table">
 
 		<tr>
 			<td><img src="public/NES_Thumbnail.jpg" alt="NES Thumbnail" class="project-image"></td>
-			<td><strong>NES Emulator</strong></td>
-			<td><a href="projects/NES_page.html">View</a></td>
+			<td>
+				<h2><a href="projects/NES_page.html">NES Emulator</a></h2>
+			</td>
 		</tr>
 
 		<tr>
 			<td><img src="public/lathe_thumbnail.jpg" alt="CNC Lathe" class="project-image"></td>
-			<td><strong>CNC Lathe</strong></td>
-			<td><a href="projects/lathe_page.html">View</a></td>
+			<td>
+				<h2><a href="projects/lathe_page.html">CNC Lathe</a></h2>
+			</td>
 		</tr>
 
 		<tr>
 			<td><img src="public/raytracer_thumbnail.jpg" alt="Raytraced Spheres Image" class="project-image"></td>
-			<td><strong>Software Raytracer</strong></td>
-			<td><a href="projects/raytracer_page.html">View</a></td>
+			<td>
+				<h2><a href="projects/raytracer_page.html">Software Raytracer</a></h2>
+			</td>
 		</tr>
 
 		<tr>
 			<td><img src="public/CMM_thumbnail.jpg" alt="Custom CMM Machine" class="project-image"></td>
-			<td><strong>Budget CMM Machine</strong></td>
-			<td><a href="projects/CMM_page.html">View</a></td>
+			<td>
+				<h2><a href="projects/CMM_page.html">Budget CMM</a></h2>
+			</td>
 		</tr>
 
 		<tr>
 			<td><img src="public/Shader_raymarchThumbnail.jpg" alt="Raymarch Shader" class="project-image"></td>
-			<td><strong>Fragment Shaders</strong></td>
-			<td><a href="projects/shader_page.html">View</a></td>
+			<td>
+				<h2><a href="projects/shader_page.html">Fragment Shaders</a></h2>
+			</td>
 		</tr>
 
 		<tr>
 			<td><img src="public/chip8_thumbnail.jpg" alt="Chip8 Demo Image" class="project-image"></td>
-			<td><strong>Chip8 Interpreter</strong></td>
-			<td><a href="projects/chip8_page.html">View</a></td>
+			<td>
+				<h2><a href="projects/chip8_page.html">Chip8 Interpreter</a></h2>
+			</td>
 		</tr>
 
 		<tr>
 			<td><img src="public/vibro_thumbnail.jpg" alt="Picture of Vibrotactile gloves" class="project-image"></td>
-			<td><strong>Vibrotactile Gloves</strong></td>
-			<td><a href="projects/vibro_page.html">View</a></td>
+			<td>
+				<h2><a href="projects/vibro_page.html">Vibrotactile Gloves</a></h2>
+			</td>
 		</tr>
 
 		<tr>
 			<td><img src="public/sentiboost_filled.jpg" alt="Frontpage of News Article Text Analyzer"
 					class="project-image">
 			</td>
-			<td><strong>Article Text Analyzer</strong></td>
-			<td><a href="projects/sentiboost_page.html">View</a></td>
+			<td>
+				<h2><a href="projects/sentiboost_page.html">Article Text Analyzer</a></h2>
+			</td>
 		</tr>
 
 		<tr>
 			<td><img src="public/geniesense_thumbnail.jpg" alt="geniesense device image" class="project-image">
 			</td>
-			<td><strong>Prototypes / Incomplete Projects</strong></td>
-			<td><a href="projects/prototypes_page.html">View</a></td>
+			<td>
+				<h2><a href="projects/prototypes_page.html">Prototypes / Incomplete Projects</a></h2>
+			</td>
 		</tr>
 
 	</table>
