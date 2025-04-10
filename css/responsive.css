@@ -1,0 +1,165 @@
+/* Responsive design styles for project pages */
+@media (max-width: 1200px) {
+    body {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        max-width: 85%;
+        font-size: 15px;
+    }
+    
+    img {
+        width: 70%;
+    }
+    
+    iframe {
+        width: 100%;
+        height: 320px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 90%;
+        margin: 4% auto;
+        font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+    
+    img {
+        width: 85%;
+        max-width: 350px;
+    }
+    
+    iframe {
+        height: 280px;
+    }
+    
+    .projects-table {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        max-width: 95%;
+        margin: 3% auto;
+        font-size: 13px;
+    }
+    
+    h1 {
+        font-size: 1.6rem;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    img {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    iframe {
+        height: 240px;
+    }
+    
+    .img-large, .img-small {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        margin: 2% auto;
+        padding: 15px;
+        font-size: 12px;
+        line-height: 1.6;
+    }
+    
+    h1 {
+        font-size: 1.4rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    h3 {
+        font-size: 1.1rem;
+    }
+    
+    iframe {
+        height: 200px;
+    }
+    
+    .project-image {
+        max-height: 160px;
+    }
+    
+    /* Improved social icons for small screens */
+    .social-link {
+        width: 45px !important;
+        height: 45px !important;
+    }
+    
+    .social-icon {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        margin: 1% auto;
+        padding: 10px;
+    }
+    
+    iframe {
+        height: 180px;
+    }
+    
+    /* Keep social icons reasonably sized even on very small screens */
+    .social-link {
+        width: 42px !important;
+        height: 42px !important;
+    }
+}
+
+/* Fix for tables on small screens */
+@media (max-width: 768px) {
+    .projects-table, .projects-table tbody, .projects-table tr, .projects-table td {
+        display: block;
+        width: 100%;
+    }
+    
+    .projects-table td {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .project-image {
+        margin: 0 auto 10px auto;
+        display: block;
+    }
+}
